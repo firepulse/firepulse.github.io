@@ -1714,8 +1714,8 @@ body {
   }
 }
 .cid-qyNrmRjcz0 {
-  padding-top: 120px;
-  padding-bottom: 30px;
+  padding-top: 160px;
+  padding-bottom: 90px;
   background-image: url("../../../assets/images/pexels-photo-112934-1920x1275.jpg");
 }
 .cid-qyNrmRjcz0 .mbr-text,
@@ -2069,4 +2069,10 @@ body {
 }
 .cid-qyNLZDrBRX .media-container-row .mbr-text {
   color: #767676;
+}
+
+.mbr-white h1,
+.mbr-white h3,
+.mbr-white p {
+  text-shadow: -1px 0 0.1px black, 0 1px 0.1px black, 1px 0 0.1px black, 0 -1px 0.1px black;
 }
