@@ -391,7 +391,12 @@
                         <label class="form-control-label mbr-fonts-style display-7" for="message-form1-s">Message</label>
                         <textarea type="text" class="form-control" name="message" rows="7" data-form-field="Message" id="message-form1-s"></textarea>
                     </div>
-                    <span class="input-group-btn"><button href="" type="submit" class="btn btn-primary btn-form display-4">CONTACT US</button></span>
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-primary btn-form display-4"
+                                onClick="ga('send', 'event', { eventCategory: 'Form', eventAction: 'Submit', eventLabel: 'Contact Us'});">
+                                CONTACT US
+                        </button>
+                    </span>
                 </form>
             </div>
         </div>
