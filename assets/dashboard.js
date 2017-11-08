@@ -61,12 +61,12 @@ if (!dialog.showModal) {
     dialogPolyfill.registerDialog(dialog);
 }
 
-Plotly.d3.json('./data/alerts.json', function (json) {
+Plotly.d3.json('data/alerts.json', function (json) {
     console.log(json);
     createAlertsTable(json);
 });
 
-Plotly.d3.json('./data/charts.json', function (json) {
+Plotly.d3.json('data/charts.json', function (json) {
     console.log(json);
 
     var layout = {
@@ -176,7 +176,7 @@ Plotly.d3.json('./data/charts.json', function (json) {
 });
 
 map.on('load', function () {
-    Plotly.d3.json('./data/locations.geojson', function (json) {
+    Plotly.d3.json('data/locations.geojson', function (json) {
         console.log(json);
 
         cluster.load(json.features);
