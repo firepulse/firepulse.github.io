@@ -1,0 +1,2777 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8686895899,
+          28.6165906549
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.12,
+        "pressure": 1015.57,
+        "windGust": 11.32,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.35,
+        "windBearing": 54.0,
+        "unit": 123.0,
+        "humidity": 1.0,
+        "ozone": 314.9,
+        "risk": 12.170330088992216
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8704388388,
+          28.6168466134
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.49,
+        "pressure": 1015.57,
+        "windGust": 11.33,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.35,
+        "windBearing": 54.0,
+        "unit": 117.0,
+        "humidity": 1.0,
+        "ozone": 314.91,
+        "risk": 15.913112528869636
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8717534585,
+          28.6177476215
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.78,
+        "pressure": 1015.57,
+        "windGust": 11.33,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.35,
+        "windBearing": 54.0,
+        "unit": 112.0,
+        "humidity": 1.0,
+        "ozone": 314.91,
+        "risk": 19.840691691848527
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8682965199,
+          28.6179601273
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.11,
+        "pressure": 1015.57,
+        "windGust": 11.33,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 114.0,
+        "humidity": 1.0,
+        "ozone": 314.89,
+        "risk": 12.147104268211693
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8667453154,
+          28.6185472151
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.82,
+        "pressure": 1015.57,
+        "windGust": 11.32,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 119.0,
+        "humidity": 1.0,
+        "ozone": 314.88,
+        "risk": 8.819731120684398
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8549661367,
+          28.6186484761
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 16.85,
+        "pressure": 1015.57,
+        "windGust": 11.31,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 53.0,
+        "unit": 41.0,
+        "humidity": 1.0,
+        "ozone": 314.8,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8738345443,
+          28.6186633221
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.13,
+        "pressure": 1015.57,
+        "windGust": 11.34,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.35,
+        "windBearing": 54.0,
+        "unit": 115.0,
+        "humidity": 1.0,
+        "ozone": 314.92,
+        "risk": 24.90651142878176
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8752225738,
+          28.6189826473
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.31,
+        "pressure": 1015.57,
+        "windGust": 11.34,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.35,
+        "windBearing": 311.0,
+        "unit": 125.0,
+        "humidity": 0.99,
+        "ozone": 314.93,
+        "risk": 27.43770845964097
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8723587252,
+          28.6190579166
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.92,
+        "pressure": 1015.57,
+        "windGust": 11.34,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.35,
+        "windBearing": 54.0,
+        "unit": 109.0,
+        "humidity": 1.0,
+        "ozone": 314.91,
+        "risk": 22.380840103007955
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8707876775,
+          28.6191545934
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.66,
+        "pressure": 1015.57,
+        "windGust": 11.34,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 105.0,
+        "humidity": 1.0,
+        "ozone": 314.9,
+        "risk": 17.289415479818338
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8573162007,
+          28.6192864668
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.11,
+        "pressure": 1015.57,
+        "windGust": 11.31,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 35.0,
+        "humidity": 1.0,
+        "ozone": 314.82,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8686528912,
+          28.6195007234
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.26,
+        "pressure": 1015.57,
+        "windGust": 11.33,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 108.0,
+        "humidity": 1.0,
+        "ozone": 314.89,
+        "risk": 13.503428693690342
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8538667538,
+          28.6200038897
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 16.83,
+        "pressure": 1015.57,
+        "windGust": 11.3,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 53.0,
+        "unit": 30.0,
+        "humidity": 1.0,
+        "ozone": 314.79,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.873829085,
+          28.6201947438
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.17,
+        "pressure": 1015.58,
+        "windGust": 11.34,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.35,
+        "windBearing": 54.0,
+        "unit": 110.0,
+        "humidity": 1.0,
+        "ozone": 314.92,
+        "risk": 24.834890861355223
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8559528548,
+          28.620309138
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.04,
+        "pressure": 1015.57,
+        "windGust": 11.31,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 22.0,
+        "humidity": 1.0,
+        "ozone": 314.8,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8700910909,
+          28.6203788208
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.58,
+        "pressure": 1015.57,
+        "windGust": 11.33,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 101.0,
+        "humidity": 1.0,
+        "ozone": 314.89,
+        "risk": 17.229213464648424
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8719158762,
+          28.6204871018
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.9,
+        "pressure": 1015.58,
+        "windGust": 11.34,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 103.0,
+        "humidity": 1.0,
+        "ozone": 314.9,
+        "risk": 21.179342505013928
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8516389024,
+          28.620623573
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 16.69,
+        "pressure": 1015.57,
+        "windGust": 11.3,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 53.0,
+        "unit": 37.0,
+        "humidity": 1.0,
+        "ozone": 314.78,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8590734302,
+          28.6206706162
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.43,
+        "pressure": 1015.57,
+        "windGust": 11.31,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 27.0,
+        "humidity": 1.0,
+        "ozone": 314.83,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.868779386900002,
+          28.6209633306
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.36,
+        "pressure": 1015.58,
+        "windGust": 11.33,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 104.0,
+        "humidity": 1.0,
+        "ozone": 314.88,
+        "risk": 14.796009128229946
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8730375218,
+          28.6213663494
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.09,
+        "pressure": 1015.58,
+        "windGust": 11.34,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 107.0,
+        "humidity": 1.0,
+        "ozone": 314.91,
+        "risk": 23.625736381573613
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8575206304,
+          28.6213836529
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.27,
+        "pressure": 1015.57,
+        "windGust": 11.31,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 15.0,
+        "humidity": 1.0,
+        "ozone": 314.8,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8533979905,
+          28.6216370808
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 16.91,
+        "pressure": 1015.57,
+        "windGust": 11.3,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 18.0,
+        "humidity": 1.0,
+        "ozone": 314.78,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8551615943,
+          28.6218800039
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.08,
+        "pressure": 1015.57,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 11.0,
+        "humidity": 1.0,
+        "ozone": 314.79,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8515480712,
+          28.6223372239
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 16.8,
+        "pressure": 1015.57,
+        "windGust": 11.3,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 25.0,
+        "humidity": 1.0,
+        "ozone": 314.77,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.86000247,
+          28.6224756896
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.72,
+        "pressure": 1015.58,
+        "windGust": 11.32,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 20.0,
+        "humidity": 1.0,
+        "ozone": 314.82,
+        "risk": 0.7309138367557696
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8701763103,
+          28.6226089954
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.69,
+        "pressure": 1015.58,
+        "windGust": 11.34,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 102.0,
+        "humidity": 1.0,
+        "ozone": 314.88,
+        "risk": 19.70538642676312
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8658229821,
+          28.6227170017
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.88,
+        "pressure": 1015.58,
+        "windGust": 11.33,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 121.0,
+        "humidity": 1.0,
+        "ozone": 314.85,
+        "risk": 9.966628894544098
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8687995452,
+          28.622855894
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.46,
+        "pressure": 1015.58,
+        "windGust": 11.34,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 106.0,
+        "humidity": 1.0,
+        "ozone": 314.88,
+        "risk": 15.828015670426488
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8616577918,
+          28.6228565071
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.06,
+        "pressure": 1015.58,
+        "windGust": 11.32,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 32.0,
+        "humidity": 1.0,
+        "ozone": 314.83,
+        "risk": 3.4062389251641068
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8582424529,
+          28.622946271
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.44,
+        "pressure": 1015.58,
+        "windGust": 11.31,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 8.0,
+        "humidity": 1.0,
+        "ozone": 314.81,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.867174661,
+          28.6231806483
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.17,
+        "pressure": 1015.58,
+        "windGust": 11.33,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 113.0,
+        "humidity": 1.0,
+        "ozone": 314.86,
+        "risk": 12.166474239839204
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.853822988,
+          28.6234743489
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.07,
+        "pressure": 1015.58,
+        "windGust": 11.3,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 7.0,
+        "humidity": 1.0,
+        "ozone": 314.78,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.875053511,
+          28.6235083096
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.35,
+        "pressure": 1015.58,
+        "windGust": 11.35,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.36,
+        "windBearing": 358.0,
+        "unit": 122.0,
+        "humidity": 0.99,
+        "ozone": 314.91,
+        "risk": 27.009657792334174
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8500245982,
+          28.6239046625
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 16.79,
+        "pressure": 1015.58,
+        "windGust": 11.3,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 33.0,
+        "humidity": 1.0,
+        "ozone": 314.75,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8521927263,
+          28.6239346155
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 16.97,
+        "pressure": 1015.58,
+        "windGust": 11.3,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 13.0,
+        "humidity": 1.0,
+        "ozone": 314.77,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8652069347,
+          28.6244166406
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.86,
+        "pressure": 1015.58,
+        "windGust": 11.33,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 93.0,
+        "humidity": 1.0,
+        "ozone": 314.85,
+        "risk": 9.926762378965922
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8735985987,
+          28.6244736884
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.23,
+        "pressure": 1015.58,
+        "windGust": 11.35,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.36,
+        "windBearing": 333.0,
+        "unit": 116.0,
+        "humidity": 1.0,
+        "ozone": 314.9,
+        "risk": 26.019270084551515
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8555381413,
+          28.624521541100002
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.3,
+        "pressure": 1015.58,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 1.0,
+        "humidity": 1.0,
+        "ozone": 314.78,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8577143247,
+          28.6246506738
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.51,
+        "pressure": 1015.58,
+        "windGust": 11.31,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 3.0,
+        "humidity": 1.0,
+        "ozone": 314.8,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8720379434,
+          28.6246669704
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.04,
+        "pressure": 1015.58,
+        "windGust": 11.35,
+        "precipIntensity": 0.045700000000000005,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 111.0,
+        "humidity": 1.0,
+        "ozone": 314.89,
+        "risk": 23.59639759029583
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8675659549,
+          28.624747725
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.34,
+        "pressure": 1015.58,
+        "windGust": 11.34,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 118.0,
+        "humidity": 1.0,
+        "ozone": 314.86,
+        "risk": 14.74200909491524
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8694029609,
+          28.6249026959
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.66,
+        "pressure": 1015.58,
+        "windGust": 11.34,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 98.0,
+        "humidity": 1.0,
+        "ozone": 314.87,
+        "risk": 17.180448575533767
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8615747774,
+          28.625015007400002
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.18,
+        "pressure": 1015.58,
+        "windGust": 11.32,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 24.0,
+        "humidity": 1.0,
+        "ozone": 314.82,
+        "risk": 3.4727955130885326
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8590519652,
+          28.6256992378
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.8,
+        "pressure": 1015.58,
+        "windGust": 11.32,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 6.0,
+        "humidity": 1.0,
+        "ozone": 314.8,
+        "risk": 1.4844694197635748
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8673150163,
+          28.6258614679
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.37,
+        "pressure": 1015.58,
+        "windGust": 11.34,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 85.0,
+        "humidity": 1.0,
+        "ozone": 314.85,
+        "risk": 14.733353847640002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8567589245,
+          28.6258984671
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.55,
+        "pressure": 1015.58,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 0.0,
+        "humidity": 1.0,
+        "ozone": 314.78,
+        "risk": 0.6426203561347568
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8715063102,
+          28.6260029444
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.02,
+        "pressure": 1015.58,
+        "windGust": 11.35,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 120.0,
+        "humidity": 1.0,
+        "ozone": 314.87,
+        "risk": 23.573239968693784
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8687103544,
+          28.6261236296
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.62,
+        "pressure": 1015.58,
+        "windGust": 11.34,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.36,
+        "windBearing": 54.0,
+        "unit": 124.0,
+        "humidity": 1.0,
+        "ozone": 314.86,
+        "risk": 17.133694609681566
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8491751904,
+          28.6261349257
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 16.99,
+        "pressure": 1015.58,
+        "windGust": 11.29,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 39.0,
+        "humidity": 1.0,
+        "ozone": 314.73,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8525378682,
+          28.6261907307
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.21,
+        "pressure": 1015.58,
+        "windGust": 11.3,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 9.0,
+        "humidity": 1.0,
+        "ozone": 314.76,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.861771582,
+          28.6262022353
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.36,
+        "pressure": 1015.58,
+        "windGust": 11.33,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 88.0,
+        "humidity": 1.0,
+        "ozone": 314.81,
+        "risk": 5.358923803968227
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8626804645,
+          28.6263214903
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.54,
+        "pressure": 1015.58,
+        "windGust": 11.32,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 36.0,
+        "humidity": 1.0,
+        "ozone": 314.82,
+        "risk": 6.920983124279713
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8641429805,
+          28.6265288775
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.84,
+        "pressure": 1015.58,
+        "windGust": 11.33,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 80.0,
+        "humidity": 1.0,
+        "ozone": 314.83,
+        "risk": 9.208174972217648
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8606705129,
+          28.626744952
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.21,
+        "pressure": 1015.58,
+        "windGust": 11.32,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 17.0,
+        "humidity": 1.0,
+        "ozone": 314.81,
+        "risk": 4.36341838363659
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.859284121,
+          28.6271436702
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.01,
+        "pressure": 1015.58,
+        "windGust": 11.32,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 96.0,
+        "humidity": 1.0,
+        "ozone": 314.8,
+        "risk": 2.3171814246375306
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8556397713,
+          28.6271811796
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.6,
+        "pressure": 1015.58,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 2.0,
+        "humidity": 1.0,
+        "ozone": 314.77,
+        "risk": 0.6491254004705508
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8504481245,
+          28.6273099846
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.18,
+        "pressure": 1015.58,
+        "windGust": 11.3,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 28.0,
+        "humidity": 1.0,
+        "ozone": 314.74,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8706521777,
+          28.6273298556
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.96,
+        "pressure": 1015.59,
+        "windGust": 11.35,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 90.0,
+        "humidity": 1.0,
+        "ozone": 314.87,
+        "risk": 22.132069788241612
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8539978832,
+          28.6274756233
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.49,
+        "pressure": 1015.58,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 5.0,
+        "humidity": 1.0,
+        "ozone": 314.76,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.857500065700002,
+          28.627559446
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.82,
+        "pressure": 1015.58,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 4.0,
+        "humidity": 1.0,
+        "ozone": 314.79,
+        "risk": 1.4920432433337971
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8591982303,
+          28.627707304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.07,
+        "pressure": 1015.58,
+        "windGust": 11.32,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 10.0,
+        "humidity": 1.0,
+        "ozone": 314.79,
+        "risk": 3.1233252536717337
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8520600957,
+          28.6278629154
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.38,
+        "pressure": 1015.58,
+        "windGust": 11.3,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 16.0,
+        "humidity": 1.0,
+        "ozone": 314.75,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8682856021,
+          28.6279626146
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.67,
+        "pressure": 1015.59,
+        "windGust": 11.34,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 77.0,
+        "humidity": 1.0,
+        "ozone": 314.85,
+        "risk": 18.455663960942637
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8657663212,
+          28.6281176423
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.29,
+        "pressure": 1015.59,
+        "windGust": 11.34,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 72.0,
+        "humidity": 1.0,
+        "ozone": 314.84,
+        "risk": 13.443749221387893
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8614561725,
+          28.6282536743
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.52,
+        "pressure": 1015.58,
+        "windGust": 11.32,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 29.0,
+        "humidity": 1.0,
+        "ozone": 314.8,
+        "risk": 6.381007556197446
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8623430473,
+          28.6286726851
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.73,
+        "pressure": 1015.59,
+        "windGust": 11.33,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 75.0,
+        "humidity": 1.0,
+        "ozone": 314.81,
+        "risk": 8.079745269187733
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8541714629,
+          28.6291506843
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.73,
+        "pressure": 1015.58,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 12.0,
+        "humidity": 1.0,
+        "ozone": 314.75,
+        "risk": 1.3389625196061228
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.860150945,
+          28.6292915744
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.42,
+        "pressure": 1015.59,
+        "windGust": 11.32,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 83.0,
+        "humidity": 1.0,
+        "ozone": 314.79,
+        "risk": 5.401019175379183
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8597210884,
+          28.6294049557
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.36,
+        "pressure": 1015.59,
+        "windGust": 11.32,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 21.0,
+        "humidity": 1.0,
+        "ozone": 314.79,
+        "risk": 5.358923803968227
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8578598983,
+          28.629635458
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.12,
+        "pressure": 1015.59,
+        "windGust": 11.32,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 14.0,
+        "humidity": 1.0,
+        "ozone": 314.78,
+        "risk": 3.1493287145961646
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8525267409,
+          28.6297317635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.66,
+        "pressure": 1015.59,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 23.0,
+        "humidity": 1.0,
+        "ozone": 314.74,
+        "risk": 0.659595164994269
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8706434233,
+          28.6297855936
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.06,
+        "pressure": 1015.59,
+        "windGust": 11.35,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 82.0,
+        "humidity": 1.0,
+        "ozone": 314.86,
+        "risk": 23.403997801797615
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8615808126,
+          28.629987825
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.74,
+        "pressure": 1015.59,
+        "windGust": 11.33,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 40.0,
+        "humidity": 1.0,
+        "ozone": 314.8,
+        "risk": 8.096404537783993
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8646492976,
+          28.6300807735
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.28,
+        "pressure": 1015.59,
+        "windGust": 11.33,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 67.0,
+        "humidity": 1.0,
+        "ozone": 314.82,
+        "risk": 13.44584498880989
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8675754639,
+          28.6302544094
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.73,
+        "pressure": 1015.59,
+        "windGust": 11.34,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 69.0,
+        "humidity": 1.0,
+        "ozone": 314.83,
+        "risk": 19.58829948635392
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8502355522,
+          28.630288514
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.56,
+        "pressure": 1015.59,
+        "windGust": 11.3,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 60.0,
+        "humidity": 1.0,
+        "ozone": 314.73,
+        "risk": 0.6465971731043375
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8553548956,
+          28.6305107057
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.01,
+        "pressure": 1015.59,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 19.0,
+        "humidity": 1.0,
+        "ozone": 314.76,
+        "risk": 2.3212971998145067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8451340456,
+          28.6306021151
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.48,
+        "pressure": 1015.59,
+        "windGust": 11.29,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 63.0,
+        "humidity": 1.0,
+        "ozone": 314.69,
+        "risk": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8727663529,
+          28.6307443042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.28,
+        "pressure": 1015.59,
+        "windGust": 11.35,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.37,
+        "windBearing": 348.0,
+        "unit": 95.0,
+        "humidity": 1.0,
+        "ozone": 314.87,
+        "risk": 26.980661806703488
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.847316394,
+          28.6309027171
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.57,
+        "pressure": 1015.59,
+        "windGust": 11.29,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 56.0,
+        "humidity": 1.0,
+        "ozone": 314.7,
+        "risk": 0.6494701587477614
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8625458918,
+          28.6310180744
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.02,
+        "pressure": 1015.59,
+        "windGust": 11.33,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 70.0,
+        "humidity": 1.0,
+        "ozone": 314.8,
+        "risk": 11.166851091700478
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8594324419,
+          28.6310819056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.52,
+        "pressure": 1015.59,
+        "windGust": 11.32,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 34.0,
+        "humidity": 1.0,
+        "ozone": 314.78,
+        "risk": 6.3928023945638
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8585011248,
+          28.6311543804
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.38,
+        "pressure": 1015.59,
+        "windGust": 11.32,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 91.0,
+        "humidity": 1.0,
+        "ozone": 314.78,
+        "risk": 5.37304274841662
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8572258887,
+          28.6312286999
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.26,
+        "pressure": 1015.59,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 26.0,
+        "humidity": 1.0,
+        "ozone": 314.77,
+        "risk": 4.397898676213109
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8538915168,
+          28.6313726254
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.0,
+        "pressure": 1015.59,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 31.0,
+        "humidity": 1.0,
+        "ozone": 314.74,
+        "risk": 2.3197824351004614
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8521556756,
+          28.6316109817
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.89,
+        "pressure": 1015.59,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 42.0,
+        "humidity": 1.0,
+        "ozone": 314.73,
+        "risk": 2.0737210374231827
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.853306672,
+          28.6316398405
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.99,
+        "pressure": 1015.59,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 65.0,
+        "humidity": 1.0,
+        "ozone": 314.74,
+        "risk": 2.3182477392717575
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8693740983,
+          28.6316643423
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.02,
+        "pressure": 1015.59,
+        "windGust": 11.35,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 74.0,
+        "humidity": 1.0,
+        "ozone": 314.84,
+        "risk": 23.466331850921925
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.866290802,
+          28.6319322325
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.68,
+        "pressure": 1015.59,
+        "windGust": 11.34,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 66.0,
+        "humidity": 1.0,
+        "ozone": 314.82,
+        "risk": 18.369784002575148
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.851128762000002,
+          28.6322221553
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.9,
+        "pressure": 1015.59,
+        "windGust": 11.31,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 53.0,
+        "humidity": 1.0,
+        "ozone": 314.73,
+        "risk": 2.078892411581344
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8606150339,
+          28.6323252194
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.86,
+        "pressure": 1015.59,
+        "windGust": 11.33,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 78.0,
+        "humidity": 1.0,
+        "ozone": 314.78,
+        "risk": 9.227694605799307
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8488103205,
+          28.6323648241
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.81,
+        "pressure": 1015.59,
+        "windGust": 11.3,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 48.0,
+        "humidity": 1.0,
+        "ozone": 314.71,
+        "risk": 1.3644080998206132
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8559819572,
+          28.6324180939
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.32,
+        "pressure": 1015.59,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 38.0,
+        "humidity": 1.0,
+        "ozone": 314.75,
+        "risk": 4.442020377614338
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8456599532,
+          28.6328756183
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.81,
+        "pressure": 1015.59,
+        "windGust": 11.29,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 51.0,
+        "humidity": 1.0,
+        "ozone": 314.69,
+        "risk": 1.3691621350116254
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8715504497,
+          28.6330704432
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.26,
+        "pressure": 1015.6,
+        "windGust": 11.35,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.37,
+        "windBearing": 292.0,
+        "unit": 87.0,
+        "humidity": 1.0,
+        "ozone": 314.85,
+        "risk": 27.027548932404166
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8436426073,
+          28.6334451693
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 17.83,
+        "pressure": 1015.59,
+        "windGust": 11.28,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 58.0,
+        "humidity": 1.0,
+        "ozone": 314.68,
+        "risk": 1.3761298812457812
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8647859526,
+          28.6336570089
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.63,
+        "pressure": 1015.6,
+        "windGust": 11.34,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 68.0,
+        "humidity": 1.0,
+        "ozone": 314.8,
+        "risk": 17.091276697114036
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8578050973,
+          28.6338302044
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.67,
+        "pressure": 1015.59,
+        "windGust": 11.32,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 99.0,
+        "humidity": 1.0,
+        "ozone": 314.76,
+        "risk": 7.444838063925313
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8532986156,
+          28.6338998047
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.31,
+        "pressure": 1015.59,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 57.0,
+        "humidity": 1.0,
+        "ozone": 314.73,
+        "risk": 4.068920448266422
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.862578217,
+          28.6340529274
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.36,
+        "pressure": 1015.59,
+        "windGust": 11.34,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 73.0,
+        "humidity": 1.0,
+        "ozone": 314.79,
+        "risk": 14.706517137535007
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8672873643,
+          28.6341656382
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.96,
+        "pressure": 1015.6,
+        "windGust": 11.34,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 71.0,
+        "humidity": 1.0,
+        "ozone": 314.81,
+        "risk": 22.032822838518555
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8477823471,
+          28.6341714526
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.03,
+        "pressure": 1015.59,
+        "windGust": 11.3,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 44.0,
+        "humidity": 1.0,
+        "ozone": 314.7,
+        "risk": 2.8464332076875776
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8695707711,
+          28.6343644527
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.16,
+        "pressure": 1015.6,
+        "windGust": 11.35,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.37,
+        "windBearing": 339.0,
+        "unit": 79.0,
+        "humidity": 1.0,
+        "ozone": 314.83,
+        "risk": 24.391761555713554
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8599726055,
+          28.6345736929
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.05,
+        "pressure": 1015.59,
+        "windGust": 11.32,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 86.0,
+        "humidity": 1.0,
+        "ozone": 314.77,
+        "risk": 11.21017507226413
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8458466267,
+          28.6350340311
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.08,
+        "pressure": 1015.59,
+        "windGust": 11.29,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 46.0,
+        "humidity": 1.0,
+        "ozone": 314.68,
+        "risk": 2.8756469353880734
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8726068729,
+          28.6350991198
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.38,
+        "pressure": 1015.6,
+        "windGust": 11.36,
+        "precipIntensity": 0.0483,
+        "windSpeed": 9.37,
+        "windBearing": 333.0,
+        "unit": 100.0,
+        "humidity": 0.99,
+        "ozone": 314.84,
+        "risk": 27.95263821280491
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8521304823,
+          28.6356287779
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.46,
+        "pressure": 1015.59,
+        "windGust": 11.31,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 50.0,
+        "humidity": 1.0,
+        "ozone": 314.72,
+        "risk": 5.458584377898713
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8492929892,
+          28.6358753116
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.3,
+        "pressure": 1015.59,
+        "windGust": 11.3,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 43.0,
+        "humidity": 1.0,
+        "ozone": 314.7,
+        "risk": 4.081759407958927
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.86568596,
+          28.6360011239
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.93,
+        "pressure": 1015.6,
+        "windGust": 11.34,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 54.0,
+        "unit": 76.0,
+        "humidity": 1.0,
+        "ozone": 314.8,
+        "risk": 22.07224411871282
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8440696986,
+          28.6362369693
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.16,
+        "pressure": 1015.59,
+        "windGust": 11.28,
+        "precipIntensity": 0.0584,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 54.0,
+        "humidity": 1.0,
+        "ozone": 314.67,
+        "risk": 2.920066317630817
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.862811618,
+          28.6363052684
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.63,
+        "pressure": 1015.6,
+        "windGust": 11.34,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 81.0,
+        "humidity": 1.0,
+        "ozone": 314.78,
+        "risk": 17.091276697114036
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.870273823,
+          28.6366471699
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.3,
+        "pressure": 1015.6,
+        "windGust": 11.35,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.37,
+        "windBearing": 356.0,
+        "unit": 92.0,
+        "humidity": 1.0,
+        "ozone": 314.83,
+        "risk": 26.73491568735127
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8541333329,
+          28.6369227832
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.81,
+        "pressure": 1015.6,
+        "windGust": 11.31,
+        "precipIntensity": 0.0533,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 62.0,
+        "humidity": 1.0,
+        "ozone": 314.73,
+        "risk": 8.213019417957836
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8677712068,
+          28.6369571107
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.16,
+        "pressure": 1015.6,
+        "windGust": 11.35,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 337.0,
+        "unit": 84.0,
+        "humidity": 1.0,
+        "ozone": 314.81,
+        "risk": 24.33409781681116
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8606000717,
+          28.6370866062
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.46,
+        "pressure": 1015.6,
+        "windGust": 11.33,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 94.0,
+        "humidity": 1.0,
+        "ozone": 314.76,
+        "risk": 14.792634126147783
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8479081079,
+          28.6374625873
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.47,
+        "pressure": 1015.6,
+        "windGust": 11.3,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 45.0,
+        "humidity": 1.0,
+        "ozone": 314.69,
+        "risk": 5.03160989553321
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.845876375,
+          28.6378269428
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.42,
+        "pressure": 1015.6,
+        "windGust": 11.29,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 49.0,
+        "humidity": 1.0,
+        "ozone": 314.67,
+        "risk": 5.003945508387244
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8502101047,
+          28.6379306682
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.63,
+        "pressure": 1015.6,
+        "windGust": 11.3,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 47.0,
+        "humidity": 1.0,
+        "ozone": 314.7,
+        "risk": 6.532281442227987
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8523114762,
+          28.638113633
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.83,
+        "pressure": 1015.6,
+        "windGust": 11.31,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 55.0,
+        "humidity": 1.0,
+        "ozone": 314.71,
+        "risk": 8.5743173056393
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8644028996,
+          28.638133997
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.97,
+        "pressure": 1015.6,
+        "windGust": 11.34,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 89.0,
+        "humidity": 1.0,
+        "ozone": 314.78,
+        "risk": 22.01935594155777
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8434784852,
+          28.6383061924
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.38,
+        "pressure": 1015.6,
+        "windGust": 11.28,
+        "precipIntensity": 0.0584,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 61.0,
+        "humidity": 1.0,
+        "ozone": 314.66,
+        "risk": 4.98676488755163
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8669186972,
+          28.639099435
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 20.22,
+        "pressure": 1015.6,
+        "windGust": 11.35,
+        "precipIntensity": 0.050800000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 305.0,
+        "unit": 97.0,
+        "humidity": 1.0,
+        "ozone": 314.79,
+        "risk": 25.73088252410931
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8487363658,
+          28.6396198272
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.79,
+        "pressure": 1015.6,
+        "windGust": 11.3,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.39,
+        "windBearing": 54.0,
+        "unit": 52.0,
+        "humidity": 1.0,
+        "ozone": 314.68,
+        "risk": 7.617083375930511
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8506553748,
+          28.6404996019
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 19.03,
+        "pressure": 1015.6,
+        "windGust": 11.31,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.38,
+        "windBearing": 54.0,
+        "unit": 59.0,
+        "humidity": 1.0,
+        "ozone": 314.69,
+        "risk": 10.522056910564462
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -17.8475555921,
+          28.6415826657
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "temperature": 18.99,
+        "pressure": 1015.6,
+        "windGust": 11.3,
+        "precipIntensity": 0.055900000000000005,
+        "windSpeed": 9.39,
+        "windBearing": 54.0,
+        "unit": 64.0,
+        "humidity": 1.0,
+        "ozone": 314.66,
+        "risk": 9.468578199926595
+      }
+    }
+  ]
+}

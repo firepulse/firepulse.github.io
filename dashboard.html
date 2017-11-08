@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+        <meta charset='utf-8' />
+
+        <title>FirePulse Dashboard</title>
+
+        <script src="https://code.getmdl.io/1.3.0/material.min.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js" defer></script>
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js' defer></script>
+        <script src='https://unpkg.com/supercluster@2.3.0/dist/supercluster.min.js' defer></script>
+        <script src='https://npmcdn.com/@turf/turf/turf.min.js' defer></script>
+        <script src='assets/dashboard.js' defer></script>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-deep_orange.min.css" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+        <link rel='stylesheet' href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' />
+        <link rel='stylesheet' href='assests/dashboard.css' />
+
+    </head>
+
+    <body>
+        <template id="popup-template">
+            <table class="mdl-data-table mdl-js-data-table">
+                <tbody>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Risk</td>
+                        <td id="risk-value" class="mdl-data-table__cell--non-numeric"></td>
+                    </tr>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Temperature</td>
+                        <td id="temp-value" class="mdl-data-table__cell--non-numeric"></td>
+                    </tr>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Precipitation</td>
+                        <td id="prec-value" class="mdl-data-table__cell--non-numeric"></td>
+
+                    </tr>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Wind</td>
+                        <td id="wind-value" class="mdl-data-table__cell--non-numeric"></td>
+                    </tr>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Humidity</td>
+                        <td id="humi-value" class="mdl-data-table__cell--non-numeric"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </template>
+
+        <template id="row-template">
+            <tr>
+                <td class="row-unit mdl-data-table__cell--non-numeric"></td>
+                <td class="row-date mdl-data-table__cell--non-numeric"></td>
+                <td class="row-risk mdl-data-table__cell--non-numeric"></td>
+            </tr>
+        </template>
+
+        <dialog id="dialog" class="mdl-dialog">
+            <h3 class="mdl-dialog__title">Want to know more?</h3>
+            <div class="mdl-dialog__content">
+                <p>
+                    We have always been a step behind wildfires.
+                    <b>Let us get ahead now</b>.
+                </p>
+                <form action="http://formspree.io/adrianmartinparra@gmail.com" method="post">
+                    <input type="hidden" name="_next" value="https://firepulse.github.io/" />
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" name="name" required>
+                        <label class="mdl-textfield__label" for="name">Name</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="email" name="email" required>
+                        <label class="mdl-textfield__label" for="email">Email</label>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <textarea class="mdl-textfield__input" type="text" rows="5" name="message" required></textarea>
+                        <label class="mdl-textfield__label" for="message">Message</label>
+                    </div>
+                    <div class="mdl-dialog__actions">
+                        <button id="closeDialog" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Close</button>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+                            Contact Us
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </dialog>
+
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+            <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+                <header class="demo-drawer-header">
+                    <img src="user.jpg" class="demo-avatar">
+                    <div class="demo-avatar-dropdown">
+                        <span>hello@example.com</span>
+                        <div class="mdl-layout-spacer"></div>
+                        <button id="accbtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                            <i class="material-icons" role="presentation">arrow_drop_down</i>
+                            <span class="visuallyhidden">Accounts</span>
+                        </button>
+                        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="accbtn">
+                            <li class="mdl-menu__item">Settings</li>
+                            <li class="mdl-menu__item">Logout</li>
+                        </ul>
+                    </div>
+                </header>
+                <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
+                    <a class="mdl-navigation__link" href="" onclick="return false;">
+                        <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Home</a>
+                    <a class="mdl-navigation__link" href="" onclick="return openDialog();">
+                        <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">announcement</i>Alarms</a>
+                    <a class="mdl-navigation__link dialog-button" href="" onclick="return openDialog();">
+                        <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">info</i>Status</a>
+                    <div class="mdl-layout-spacer"></div>
+                    <a class="mdl-navigation__link" href="https://firepulse.github.io" target="_blank">
+                        <i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">help_outline</i>
+                        <span class="visuallyhidden">Help</span>
+                    </a>
+                </nav>
+            </div>
+            <main class="mdl-layout__content mdl-color--grey-100">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+                        <div id="map"></div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--8-col mdl-card mdl-shadow--2dp center-chart">
+                        <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+                            <div class="mdl-tabs__tab-bar">
+                                <a href="#risk-panel" class="mdl-tabs__tab is-active">Risk</a>
+                                <a href="#temp-panel" class="mdl-tabs__tab">Temperature</a>
+                                <a href="#prec-panel" class="mdl-tabs__tab">Precipitation</a>
+                                <a href="#wind-panel" class="mdl-tabs__tab">Wind</a>
+                                <a href="#humi-panel" class="mdl-tabs__tab">Humidity</a>
+                            </div>
+
+                            <div class="mdl-tabs__panel is-active" id="risk-panel">
+                                <div id="chart-1"></div>
+                            </div>
+                            <div class="mdl-tabs__panel" id="temp-panel">
+                                <div id="chart-2"></div>
+                            </div>
+                            <div class="mdl-tabs__panel" id="prec-panel">
+                                <div id="chart-3"></div>
+                            </div>
+                            <div class="mdl-tabs__panel" id="wind-panel">
+                                <div id="chart-4"></div>
+                            </div>
+                            <div class="mdl-tabs__panel" id="humi-panel">
+                                <div id="chart-5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
+                        <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--12-col-desktop">
+                            <div class="mdl-card__title mdl-card--expand mdl-color--green-400">
+                                <h2 class="mdl-card__title-text">Alarms</h2>
+                            </div>
+                            <table class="mdl-data-table mdl-js-data-table full-width">
+                                <thead>
+                                    <tr>
+                                        <th class="mdl-data-table__cell--non-numeric">Unit</th>
+                                        <th class="mdl-data-table__cell--non-numeric">When</th>
+                                        <th class="mdl-data-table__cell--non-numeric">Risk</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="alerts">
+                                </tbody>
+                            </table>
+                            <div class="mdl-card__actions">
+                                <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored" onclick="return openDialog();">View Alarms</a>
+                            </div>
+                        </div>
+                        <div class="demo-separator mdl-cell--1-col"></div>
+                        <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
+                            <div class="mdl-card__title mdl-card--expand mdl-color--green-400">
+                                <h2 class="mdl-card__title-text">Status</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+                                All units active and reporting.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored" onclick="return openDialog();">View Status</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+
+</html>
