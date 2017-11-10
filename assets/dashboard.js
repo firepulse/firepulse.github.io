@@ -1,5 +1,156 @@
 'use strict';
 
+////////////////////////////////////////////////////////////////////////////////
+// TOURJS //////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+var currentStep = -1;
+var lastStep;
+
+var createTour = function (options) {
+    var tour = [];
+
+    var steps = options.steps;
+    delete options.steps;
+
+    var tippyOptions = Object.assign({
+        interactive: true,
+        trigger: 'manual',
+        html: function (el) {
+            var t = document.getElementById("tour-template");
+            var clone = document.importNode(t.content, true).firstElementChild;
+
+            clone.querySelector("#tour-text").textContent = el.title;
+            return clone;
+        }
+    }, options);
+
+    steps.forEach(function (step) {
+        const el = document.querySelector(step.element);
+        el.setAttribute("title", step.text);
+
+        tippyOptions.position = step.position;
+
+        const tip = tippy(step.element, tippyOptions);
+        const popper = tip.getPopperElement(el);
+
+        tour.push({
+            popper: popper,
+            tip: tip,
+            el: el
+        })
+    });
+
+    lastStep = steps.length;
+    return tour;
+};
+
+var showStep = function (step, tour) {
+    var popper = tour[step].popper;
+    var tip = tour[step].tip;
+    var el = tour[step].el;
+
+    el.scrollIntoView({
+        behavior: 'smooth'
+    });
+
+    if (currentStep === 0) {
+        popper.querySelector("#tour-prev").disabled = true;
+    } else if (currentStep === lastStep - 1) {
+        popper.querySelector("#tour-next").disabled = true;
+    } else {
+        popper.querySelector("#tour-next").disabled = false;
+        popper.querySelector("#tour-prev").disabled = false;
+    }
+
+    tip.show(popper);
+};
+
+var hideStep = function (step, tour) {
+    var popper = tour[step].popper;
+    var tip = tour[step].tip;
+
+    tip.hide(popper);
+};
+
+var advanceTour = function (tour) {
+    if (currentStep < lastStep - 1) {
+        if (currentStep > -1) hideStep(currentStep, tour);
+        showStep(++currentStep, tour);
+    } else if (currentStep === lastStep - 1) {
+        hideStep(currentStep++, tour);
+    }
+};
+
+var rewindTour = function (tour) {
+    if (currentStep > 0) {
+        if (currentStep < lastStep) hideStep(currentStep, tour);
+        showStep(--currentStep, tour);
+    } else if (currentStep === 0) {
+        hideStep(currentStep--, tour);
+    }
+};
+
+var resetTour = function (tour) {
+    if ((currentStep > -1) && (currentStep < lastStep)) {
+        hideStep(currentStep, tour);
+    }
+    currentStep = -1;
+};
+
+var startTour = function (tour) {
+    resetTour(tour);
+    advanceTour(tour);
+};
+
+$(document).on('click', '#tour-next', function () {
+    advanceTour(tour);
+});
+
+$(document).on('click', '#tour-prev', function () {
+    rewindTour(tour);
+});
+
+$(document).on('click', '#tour-exit', function () {
+    resetTour(tour);
+});
+////////////////////////////////////////////////////////////////////////////////
+
+var tour = createTour({
+    theme: 'light',
+    arrow: true,
+    steps: [{
+            element: '#home',
+            text: 'Our real-time, geospatial intelligence system gives you insights into the environment’s health and empower you to make informed decisions and mitigate risks immediately.',
+            position: 'top'
+        },
+        {
+            element: '#map',
+            text: 'Pinpoint fires with precise geolocation and minimize damage to your assets. The firefighters will be able to know where the fire is spreading with real-time information.',
+            position: 'left'
+        },
+        {
+            element: '#charts',
+            text: 'Continuous monitoring and precise prediction algorithms allows you to be proactive instead of reactive.',
+            position: 'top'
+        },
+        {
+            element: '#alerts',
+            text: 'A fire alert is released when specific conditions are met. Firefighters can examine the analysis and determine when and how to respond',
+            position: 'left'
+        },
+        {
+            element: '#status',
+            text: 'Each unit scans 24/7 and is equipped with a range of sensors that detect wildfires based on the environmental anomalies they produce.',
+            position: 'left'
+        },
+        {
+            element: '#analysis',
+            text: 'Data fusion and AI enable you to turn all collected data into meaningful information. Analyze historical fire data to identify risk areas and plan fire mitigation strategies.',
+            position: 'bottom'
+        }
+    ]
+});
+
 mapboxgl.accessToken = 'pk.eyJ1IjoieWFyb3giLCJhIjoiY2o5aWVvMWRiM2R5aDJxcXlvc2FmcWhzbSJ9.-rOTs9UnhWazfkt6nwWDyg';
 
 var map = new mapboxgl.Map({
@@ -240,6 +391,8 @@ map.on('load', function () {
             }
         }, 'waterway-label');
     });
+
+    startTour(tour);
 });
 
 map.on('mouseenter', 'clusters', function (e) {
@@ -294,6 +447,11 @@ $("#alerts").on("click", "tr", function () {
         zoom: 15
     });
 });
+
+$("#help").click(function () {
+    startTour(tour);
+    return false;
+})
 
 window.onresize = function () {
     resizePlots([gd1, gd2, gd3, gd4, gd5]);

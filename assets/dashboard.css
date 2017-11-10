@@ -12,6 +12,20 @@ body {
     cursor: pointer;
 }
 
+.mdl-card {
+    min-height: fit-content;
+}
+
+.mdl-card__menu {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.tippy-tooltip {
+    padding: 0;
+}
+
 .center-chart {
     display: flex;
     justify-content: center;
