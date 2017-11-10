@@ -116,6 +116,7 @@ $(document).on('click', '#tour-exit', function () {
 ////////////////////////////////////////////////////////////////////////////////
 
 var tour = createTour({
+    hideOnClick: false,
     theme: 'light',
     arrow: true,
     steps: [{
