@@ -1,0 +1,6 @@
+# basically nothing
+User-agent: *
+Disallow:
+
+# if you read a QR code on your school, cracked a few barcodes and somehow got here, this is for you:
+Disallow: /final_challenge.bin
