@@ -103,7 +103,7 @@
 
   const ips = await getIPs();
   
-  location = await getLocationByIP(ips.ipv4 || ips.ipv6);
+  geoLocation = await getLocationByIP(ips.ipv4 || ips.ipv6);
   
   uuid = getOrCreateTimeBasedID();
 
