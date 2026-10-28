@@ -49,17 +49,24 @@
   
   // Generate Time-based UUID v7 or get it from localStorage
   function getOrCreateTimeBasedID() {
+	console.log("Read device_id from localStorage");
     let deviceId = localStorage.getItem('device_id');
     
     if (!deviceId) {
+		console.log("deviceId not found in localStorage, generating");
         deviceId = generateUUIDv7();
+		console.log("Generated ID: ", deviceId)
         localStorage.setItem('device_id', deviceId);
-    }
+		console.log("Saved to localStorage")
+    } else {
+		console.log("device_id ok");
+	}
     
     return deviceId;
   }
 
   function generateUUIDv7() {
+	console.log("Generating UUID v7");
     // 1. Get current Unix timestamp in milliseconds
     const now = Date.now();
 	
@@ -98,7 +105,7 @@
   
   location = await getLocationByIP(ips.ipv4 || ips.ipv6);
   
-  uuid = GetOrCreateTimeBasedID();
+  uuid = getOrCreateTimeBasedID();
 
   const deviceInfo = {
     userAgent: navigator.userAgent,
